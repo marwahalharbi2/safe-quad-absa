@@ -1,0 +1,115 @@
+﻿Review_ID,Review text,Aspect,Category,Opinion,Sentiment,Aspect.1,Category.1,Opinion.1,Sentiment.1,F1 ,Case_Type,Case_Description
+1,mastress with cover torn off,mastress,Amenities ,torn off,Negative,mattress,Furniture,cover torn off,Negative,0.00,partial_match,multi_dimensional_error
+2,"Lack of toiletries.
+1 towel for 4 people. 
+The window curtains were not dark, there was light in the room at 5:30 in the morning even with the curtains.",toiletries,Amenities ,Lack,Negative,toiletries,Amenities,lack ,Negative,67.00,exact_match,
+2,,curtains,Furniture ,not dark,Negative,curtains,Furniture,not dark,Negative,,exact_match,
+2,,,,,,towel,Amenities,1 towel for 4 people,Negative,,exact_mismatch,missed_prediction
+2,,,,,,room,Room,light at 5:30 in the morning even with curtains,Negative,,exact_mismatch,missed_prediction
+3,"No cold water for the bathroom, the aircon condition is hot &  need for additional slippers",bathroom,Engineering,no cold water,Negative,bathroom,Engineering,no cold water,Negative,67.00,exact_match,
+3,,aircon,Engineering,hot,Negative,aircon,Engineering,hot,Negative,,exact_match,
+3,,slippers,Amenities ,need ,Negative,slippers,Amenities,need for additional slippers,Negative,,partial_match,span_misalignment
+4, facilities are in good condition,facilities ,Amenities ,in good condition,Positive,facilities,Amenities,in good condition,Positive,100.00,exact_match,
+5,The place is nice and peasant. Worth for the money. Staff was very friendly and supportive.,money,Value,worth for the money,Positive,money,Value,worth for the money,Positive,28.57,exact_match,
+5,,place,General,nice and peasant,Positive,place,General,nice and pleasant,Positive,,partial_match,spelling_mistake
+5,,staff,Human Resources ,friendly and supportive,Positive,,,,,,exact_mismatch,missed_actual
+5,,,,,,staff,Human Resources,very friendly,Positive,,exact_mismatch,missed_prediction
+5,,,,,,staff,Human Resources,supportive,Positive,,exact_mismatch,missed_prediction
+6,liked the bed; it was comfortable and clean,bed,Furniture ,comfortable,Positive,bed,Furniture,comfortable,Positive,67.00,exact_match,
+6,,bed,Furniture ,clean,Positive,bed,Furniture,clean,Positive,,exact_match,
+6,,bed,Furniture ,liked,Positive,bed,Furniture,liked the bed,Positive,,partial_match,span_misalignment
+7,their staff is dishonest,staff,Human Resources ,dishonest,Negative,staff,Human Resources,dishonest,Negative,100.00,exact_match,
+8,There are cockroaches inside the room. The bathroom is not that clean. The aircon heater is not working in the room. The light is dim and others are not working.,bathroom,Housekeeping,not that clean,Negative,bathroom,Housekeeping,not that clean,Negative,44.44,exact_match,
+8,,light,Engineering,dim,Negative,light,Engineering,dim,Negative,,exact_match,
+8,,room,Housekeeping,cockroaches,Negative,room,Housekeeping,cockroaches inside the room,Negative,,partial_match,span_misalignment
+8,,aircon,Engineering,not working,Negative,aircon heater,Engineering,not working,Negative,,partial_match,span_misalignment
+8,,,,,,others,Engineering,are not working,Negative,,exact_mismatch,missed_prediction
+9,elevators are not working,Elevators ,Engineering,not working,Negative,elevators,Engineering,not working,Negative,100.00,exact_match,
+10,"The location is good but there is no breakfast, wifi and the hotel is not clean",location ,Location,good ,Positive,location,Location,good,Positive,100.00,exact_match,
+10,,breakfast,Food and beverage,no,Negative,breakfast,Food and Beverage,no,Negative,,exact_match,
+10,,wifi ,Amenities ,no,Negative,wifi,Amenities,no,Negative,,exact_match,
+10,,hotel ,Housekeeping,not clean,Negative,hotel,Housekeeping,not clean,Negative,,exact_match,
+11,hotel facilities and location were outstanding,facilities and location,General,outstanding,Positive,,,,,0.00,exact_mismatch,missed_actual
+11,,,,,,facilities,Amenities,outstanding,Positive,,exact_mismatch,missed_prediction
+11,,,,,,location,Location,outstanding,Positive,,exact_mismatch,missed_prediction
+12,the staff at the reception speaks english very well,staff,Front office,speaks English very well,Positive,staff,Front Office,speaks English very well,Positive,100.00,exact_match,
+13,"Check-in was fast and smooth, and the receptionist was super friendly. Great first impression!",check-in,Front office,fast and smooth,Positive,check-in,Front Office,fast and smooth,Positive,33.33,exact_match,
+13,,receptionist,Front office,friendly,Positive,receptionist,Front Office,super friendly,Positive,,partial_match,span_misalignment
+13,,null,General,great first impression,Positive,impression,General,great,Positive,,partial_match,Implicit 
+14,"Poor room  service response ,
+Calling to the reception takes so much time to have an answer.
+Water request take more than One  & half hour 
+I requested king size bed ,but they give twin bed",room service,Room services,poor response,Negative,room service,Room Services,poor response,Negative,25.00,exact_match,
+14,,reception,Human Resources ,null,Negative,reception,Front Office,calling takes so much time to have answer,Negative,,partial_match,
+14,,water request,Room services,null,Negative,water request,Room Services,takes more than one & half hour,Negative,,partial_match,
+14,,null,Reservations,null,Negative,,,,,,exact_mismatch,missed_actual
+14,,,,,,bed,Furniture,requested king size but given twin bed,Negative,,exact_mismatch,missed_prediction
+15,The front desk was helpless and didn't solve anything,front desk,Human Resources ,helpless,Negative,front desk,Front Office,helpless,Negative,0.00,partial_match,category_only_mismatch
+15,,front desk,Front office,null,Negative,front desk,Front Office,didn't solve anything,Negative,,partial_match,Implicit 
+16,â€œOverall it seems to be the best hotel Iâ€™ve ever stayed in Saudi Arabia. Stuff was helpful and professionalâ€,staff,Human Resources ,helpful and professional,Positive,staff,Human Resources,helpful and professional,Positive,50.00,exact_match,
+16,,hotel,General,best,Positive,hotel,General,best hotel,Positive,,partial_match,span_misalignment
+17,Outdated and poorely maintained,,General,outdate,Negative,hotel,General,outdated,Negative,0.00,partial_match,
+17,,,General,poorely maintained,Negative,hotel,General,poorly maintained,Negative,,partial_match,multi_dimensional_error
+18,The comfort room is not that clean..the sink is dirty floor of the comfort room is still wet when i checked in.,sink,Housekeeping,dirty,Negative,sink,Housekeeping,dirty,Negative,66.66,exact_match,
+18,,comfort room,Housekeeping,not that clean,Negative,comfort room,Housekeeping,not that clean,Negative,,exact_match,
+18,,floor,Housekeeping,wet,Negative,floor,Housekeeping,still wet ,Negative,,partial_match,span_misalignment
+19,"gym facilities were limited, but still functional.",gym facilities,Amenities ,limited but functional,Nuetral ,,,,,0.00,exact_mismatch,missed_actual
+19,,,,,,gym facilities,Amenities,limited,Negative,,exact_mismatch,missed_prediction
+19,,,,,,gym facilities,Amenities, functional,Positive,,exact_mismatch,missed_prediction
+20,"This is my first time in your hotel, I really like it, one thing the aircon is a bit low on cold, hoping to come back again",hotel,General,like it ,Positive,hotel,General,really like it,Positive,0.00,partial_match,span_misalignment
+20,,aircon,Engineering, low,Negative,aircon,Engineering,bit low ,Negative,,partial_match,span_misalignment
+21,"Reception staff are excellent Rena help me fixing the Aircondition in very professional way, Hussain also was very kind and helpful",Hussain,Human Resources ,kind and helpful,Positive,Hussain ,Human Resources,kind and helpful,Positive,66.66,exact_match,
+21,,Reception staff,Human Resources ,excellent,Positive,reception staff,Human Resources,excellent,Positive,,exact_match,
+21,,Rena ,Human Resources ,help me,Positive,Rena ,Human Resources,helped fix aircondition professionally,Positive,,partial_match,span_misalignment
+22,there is no gym,gym ,Amenities ,null,Negative,gym,Amenities,no gym,Negative,0.00,partial_match,Implicit 
+23,Very friendly staff; made us feel at home. Excellent lunch buffet. Very helpful chauffeurs for quick airport transfer.,staff,Human Resources ,friendly ,Positive,staff,Human Resources,friendly,Positive,28.57,exact_match,
+23,,lunch ,Food and beverage,Excellent ,Positive,lunch buffet,Food and Beverage,excellent,Positive,,partial_match,span_misalignment
+23,,chauffeurs ,Human Resources , helpful,Positive,chauffeurs,Human Resources,very helpful,Positive,,partial_match,span_misalignment
+23,,,,,,airport transfer,General,quick,Positive,,exact_mismatch,missed_prediction
+24,"The location is good but there is no breakfast, wifi and the hotel is not clean",location ,Location,good ,Positive,location,Location,good,Positive,25.00,exact_match,
+24,,breakfast,Food and beverage,null,Negative,breakfast,Food and Beverage,no breakfast,Negative,,partial_match,Implicit 
+24,,wifi ,Engineering,null,Negative,wifi,Amenities,no wifi,Negative,,partial_match,Implicit 
+24,,hotel ,Housekeeping,not clean,Negative,hotel,General,not clean,Negative,,partial_match,category_only_mismatch
+25,The price was high compared to the quality and location,price,Value,high,Negative,,,,,0.00,exact_mismatch,missed_actual
+25,,,,,,price,Value,high compared to quality,Negative,,exact_mismatch,missed_prediction
+25,,,,,,price,Value,high compared to location,Negative,,exact_mismatch,missed_prediction
+26,location is superb,location ,Location,superb,Positive,location,Location,superb,Positive,100.00,exact_match,
+27,"Friendly staff, nice box of bathroom materials (toothbrush, soap etc). TV had a few English channels. English was spoken.",staff,Human Resources ,Friendly ,Positive,staff,Human Resources,friendly,Positive,25.00,exact_match,
+27,,TV,Amenities ,null,Positive,TV,Amenities,had a few English channels,Positive,,partial_match,Implicit 
+27,,box,Amenities ,nice ,Positive,box of bathroom materials,Amenities,nice ,Positive,,partial_match,span_misalignment
+27,,null,Human Resources ,null,Positive,staff,Human Resources,English was spoken,Positive,,partial_match,Implicit 
+28,feel happy staying at holiday inn jeddah gateway.,staying,General,happy ,Positive,staying,General,happy ,Positive,100.00,exact_match,
+29,I like to stay there very neat and clean .comfortble mattress and pillows . Electric cattle shampoo  shower gel teeth care  all  avaible and service able.,null,Housekeeping,neat and clean,Positive,hotel,Housekeeping,very neat and clean,Positive,0.00,partial_match,Implicit 
+29,,,,,,mattress,Furniture,comfortable,Positive,,exact_mismatch,missed_prediction
+29,,,,,,pillows,Furniture,comfortable,Positive,,exact_mismatch,missed_prediction
+29,,,,,,electric kettle,Amenities,available and serviceable,Positive,,exact_mismatch,missed_prediction
+29,,,,,,shampoo,Amenities,available and serviceable,Positive,,exact_mismatch,missed_prediction
+29,,,,,,shower gel,Amenities,available and serviceable,Positive,,exact_mismatch,missed_prediction
+29,,,,,,teeth care,Amenities,available and serviceable,Positive,,exact_mismatch,missed_prediction
+29,,Electric cattle shampoo  shower gel teeth care,Amenities ,avaible and service able,Positive,,,,,,exact_mismatch,missed_actual
+29,,mattress and pillows ,Furniture ,comfortble,Positive,,,,,,exact_mismatch,missed_actual
+30,"Clean, neat and well managed hotel. Inhouse restaurant that serve variety of food options at reasonable price. Excellent stay and amazing staff.",hotel,General,"clean, neat and well managed",Positive,hotel,General,"clean, neat and well managed",Positive,57.14,exact_match,
+30,,restaurant ,Food and beverage,variety of food ,Positive,restaurant,Food and Beverage,variety of food ,Positive,,exact_match,
+30,,,,,,food options,Food and Beverage,reasonable price,Positive,,exact_mismatch,missed_prediction
+30,,,,,,stay,General,excellent,Positive,,exact_mismatch,missed_prediction
+30,,,,,,staff,Human Resources,amazing,Positive,,exact_mismatch,missed_prediction
+31, i called the reception they didn't help ,reception ,Human Resources ,didn't help,Negative,reception,Human Resources,didn't help,Negative,100.00,exact_match,
+32,A little bit slow check in,check in ,Front office,slow ,Negative,check-in,Front Office,a little bit slow,Negative,0.00,partial_match,span_misalignment
+33,Nouran at front desk was very helpful. The only member of staff who could speak English. She was very friendly. Helped with arranging taxis too! :),Nouran,Human Resources ,friendly ,Positive,Nouran,Human Resources,very helpful,Positive,0.00,partial_match,
+33,,Nouran,Human Resources ,helpful,Positive,Nouran,Human Resources,speak English,Positive,,partial_match,
+33,,Nouran,Human Resources ,speak English,Positive,Nouran,Human Resources,very friendly,Positive,,partial_match,
+33,,,,,,Nouran,Human Resources,helped with arranging taxis,Positive,,exact_mismatch,
+34,There was a very bad smell in the bathroom,bathroom,Housekeeping,bad smell,Negative,bathroom,Housekeeping,very bad smell,Negative,0.00,partial_match,span_misalignment
+35,Saudi staff. Need somebody who can speak English also.,staff,Human Resources ,Saudi staff,Nuetral ,staff,Human Resources,Saudi staff,Neutral,66.66,exact_match,
+35,,,,,,staff,Human Resources,need somebody who can speak English,Negative,,exact_mismatch,missed_prediction
+36,The mattress was torn off and uncomfortable,mattress,Amenities ,torn off and uncomfortable,Negative,mattress,Furniture,torn off and uncomfortable,Negative,0.00,partial_match,category_only_mismatch
+37,It was nice and clean and the staff could speak English. Very good value for money.,value,Value,good,Positive,value,Value,very good ,Positive,33.33,exact_match,
+37,,null,General,nice and clean,Positive,hotel,General,nice and clean,Positive,,partial_match,Implicit 
+37,,staff,Human Resources , speak English,Positive,staff,Human Resources,could speak English,Positive,,partial_match,span_misalignment
+38,Crowded elevators.,elevators,Amenities ,Crowded,Negative,elevators,Amenities ,Crowded,Negative,100.00,exact_match,
+39,There is free breakfast and room price is reasonable.,breakfast,Food and beverage,free,Positive,breakfast,Food and Beverage,free,Positive,50.00,exact_match,
+39,,price,Value,reasonable,Positive,room price,Value,reasonable,Positive,,partial_match,span_misalignment
+40,"the room was dirty. the room smelled like there is a plumbing problem in the building. the free breakfast was absolutely disgusting, and the bed was has hard as concrete",room ,Housekeeping,dirty,Negative,room,Housekeeping,dirty,Negative,50.00,Exact_match,
+40,,breakfast ,Food and beverage,disgusting,Negative,breakfast,Food and Beverage,disgusting,Negative,,Exact_match,
+40,,bed ,Furniture ,hard ,Negative,bed,Furniture,hard as concrete,Negative,,partial_match,span_misalignment
+40,,room ,Engineering,plumbing problem,Negative,room,Engineering,smelled like plumbing problem,Negative,,partial_match,span_misalignment

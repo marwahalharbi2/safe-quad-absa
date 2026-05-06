@@ -1,0 +1,10 @@
+Review_ID,Review text,Aspect,Category,Opinion,Sentiment,Aspect.1,Category.1,Opinion.1,Sentiment.1
+1,"The room was clean and comfortable",room,Room,clean,Positive,room,Room,clean,Positive
+1,,room,Room,comfortable,Positive,room,Room,comfortable,Positive
+2,"Service was excellent but the food was terrible",service,Human Resources,excellent,Positive,service,Human Resources,excellent,Positive
+2,,food,Food,terrible,Negative,food,Food,very bad,Negative
+3,"Nice location, worth the price",location,Location,nice,Positive,location,Location,nice,Positive
+3,,price,Value,worth,Positive,price,Value,worth the price,Positive
+4,"The bed was uncomfortable",bed,Furniture,uncomfortable,Negative,bed,Furniture,not comfortable,Negative
+5,"Staff were friendly and helpful",staff,Human Resources,friendly,Positive,staff,Human Resources,friendly,Positive
+5,,staff,Human Resources,helpful,Positive,staff,Human Resources,very helpful,Positive
