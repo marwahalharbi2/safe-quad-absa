@@ -32,7 +32,7 @@ SAFE:       99.2  ✅  (recognizes semantic equivalence)
 ### From Source (Recommended for Reviewers)
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/safe-quad-absa.git
+git clone https://github.com/marwahalharbi2/safe-quad-absa.git
 cd safe-quad-absa
 pip install -e .
 ```
