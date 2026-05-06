@@ -259,7 +259,7 @@ We welcome contributions! Please:
 
 For questions or issues, please:
 - Open a GitHub issue
-- Email: safe.eval.2026@gmail.com
+- Email: To be updated after publication
 
 ---
 
